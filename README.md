@@ -9,7 +9,7 @@ This Java application calculates the fixed monthly payment for a mortgage based 
 - Java Development Kit (JDK) installed
 - Git installed (optional)
 - [Gradle](https://gradle.org/) or [Maven](https://maven.apache.org/) build tool installed (optional)
-- Docker (optional, if you want to containerize the application)
+- Docker (optional)
 
 ## How to Run
 1. Clone this repository to your local machine:
@@ -40,3 +40,9 @@ This Java application calculates the fixed monthly payment for a mortgage based 
 
 ## Running Unit Tests
 To run the unit tests, execute the following command:
+
+Using Gradle
+gradle test
+
+Using Maven
+mvn test

@@ -24,17 +24,11 @@ This Java application calculates the fixed monthly payment for a mortgage based 
     ```
     # Using Gradle (if Gradle is installed)
     gradle build
-
-    # Using Maven (if Maven is installed)
-    mvn package
     ```
 4. Run the application:
     ```
     # Using Gradle
     gradle run
-
-    # Using Maven
-    mvn exec:java -Dexec.mainClass="com.example.Main"
     ```
 5. Follow the prompts to enter customer details and calculate the monthly payments.
 
@@ -43,6 +37,3 @@ To run the unit tests, execute the following command:
 
 Using Gradle
 gradle test
-
-Using Maven
-mvn test
